@@ -1,0 +1,15 @@
+@import "normalize.css";
+
+:root {
+	--color-primary-0: #05575b;
+	--color-primary-1: #02888e;
+	--color-primary-2: #076c70;
+	--color-primary-3: #003d40;
+	--color-primary-4: #002426;
+
+	--color-complement-0: #974a08;
+	--color-complement-1: #eb6d02;
+	--color-complement-2: #ba5c0b;
+	--color-complement-3: #693100;
+	--color-complement-4: #3e1d00;
+}
