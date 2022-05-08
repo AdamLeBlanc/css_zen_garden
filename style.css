@@ -159,3 +159,58 @@ a {
 .main footer a:hover {
 	color: var(--pop-color);
 }
+
+.sidebar {
+	background-color: var(--secondary-accent);
+	margin: 0;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+
+.design-selection h3.select {
+	color: var(--pop-color);
+	margin: 0;
+	font-size: 1.3rem;
+	padding: 1rem 1.5rem;
+}
+
+.design-selection nav ul {
+	counter-reset: number;
+	list-style-type: none;
+	padding: 0;
+}
+
+.design-selection nav ul li {
+	counter-increment: number;
+	padding: 20px;
+}
+
+.design-selection nav ul li::before {
+	position: relative;
+	background-color: var(--pop-color);
+	color: var(--font-color);
+	padding: 0.5rem;
+	border-radius: 50%;
+	content: counter(number);
+	border: 1px solid black;
+	margin-right: 5px;
+}
+
+.design-selection nav ul li,
+.design-selection nav ul li a {
+	color: var(--pop-color);
+}
+
+.design-selection nav ul li:nth-child(odd) {
+	background-color: var(--accent-color);
+}
+
+.design-selection nav ul li:nth-child(even) {
+	background-color: var(--font-color);
+}
+
+.design-selection nav ul li:nth-child(3n) {
+	background-color: var(--complimentary-color);
+}
