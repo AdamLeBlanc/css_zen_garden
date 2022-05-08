@@ -85,3 +85,17 @@ body {
 	padding: 0 0 1rem 0;
 	color: #ffffff;
 }
+
+.intro .preamble {
+	margin: 0;
+	padding: 0 1rem;
+}
+
+.intro .preamble h3 {
+	font-size: 1.5rem;
+	margin: 16px 0;
+}
+
+.intro .preamble p {
+	margin: 16px 0;
+}
