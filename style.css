@@ -214,3 +214,39 @@ a {
 .design-selection nav ul li:nth-child(3n) {
 	background-color: var(--complimentary-color);
 }
+
+.design-archives,
+.zen-resources {
+	background-color: var(--complimentary-color);
+	margin: 0;
+	padding: 1rem 1.5rem;
+}
+
+.design-archives h3,
+.zen-resources h3 {
+	margin: 0;
+}
+
+.design-archives ul,
+.zen-resources ul {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.design-archives ul li,
+.zen-resources ul li {
+	margin-bottom: 20px;
+}
+
+.design-archives ul li a,
+.zen-resources ul li a {
+	padding: 15px 0;
+}
+
+.zen-resources {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 70px;
+	background: var(--complimentary-color) url(tomato-icon.svg) no-repeat bottom 10px center;
+	background-size: 70px;
+}
