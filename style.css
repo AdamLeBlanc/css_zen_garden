@@ -70,3 +70,18 @@ body {
 	padding: 3rem 2rem;
 	line-height: 2.5rem;
 }
+
+.intro .summary {
+	background-color: #c879b2;
+	background-image: url(onion-icon.svg), url(chili-icon.svg), url(seaweed-icon.svg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: bottom left, bottom center, bottom right;
+	background-size: 33.333%;
+	padding: 2rem 1rem 34% 1.5rem;
+}
+
+.intro .summary p {
+	margin: 0;
+	padding: 0 0 1rem 0;
+	color: #ffffff;
+}
