@@ -4,6 +4,7 @@
 	--font-color: #0d2c40;
 	--background-color: #f6efe5;
 	--accent-color: #f15a30;
+	--secondary-accent: #c879b2;
 	--complimentary-color: rgba(0, 188, 217, 0.8);
 	--pop-color: #ffffff;
 	text-rendering: optimizeLegibility;
@@ -80,7 +81,7 @@ a {
 }
 
 .intro .summary {
-	background-color: #c879b2;
+	background-color: var(--secondary-accent);
 	background-image: url(onion-icon.svg), url(chili-icon.svg), url(seaweed-icon.svg);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: bottom left, bottom center, bottom right;
