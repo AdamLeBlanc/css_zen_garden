@@ -30,6 +30,11 @@ body {
 	margin: 0;
 }
 
+a {
+	color: var(--font-color);
+	transition: all 0.2s ease-out;
+}
+
 .intro header[role="banner"] {
 	display: flex;
 	position: relative;
@@ -122,4 +127,34 @@ body {
 	padding: 80px 1rem 1rem 1rem;
 	background: var(--complimentary-color) url(tomato-icon.svg) no-repeat top 10px center;
 	background-size: 75px;
+}
+
+.main footer {
+	padding: 0;
+	height: 4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: var(--font-color);
+}
+
+.main footer a {
+	flex-grow: 1;
+	height: 100%;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main footer a:nth-child(odd) {
+	background-color: var(--complimentary-color);
+}
+
+.main footer a:nth-child(even) {
+	background-color: var(--accent-color);
+}
+
+.main footer a:hover {
+	color: var(--pop-color);
 }
