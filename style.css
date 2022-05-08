@@ -1,4 +1,6 @@
+/* #region imports */
 @import "normalize.css";
+/* #endregion */
 
 :root {
 	--font-color: #0d2c40;
@@ -10,6 +12,8 @@
 	text-rendering: optimizeLegibility;
 }
 
+/* #region box-sizing reset */
+
 *,
 *::before,
 *::after {
@@ -19,6 +23,10 @@
 html {
 	box-sizing: border-box;
 }
+
+/* #endregion */
+
+/* #region base (mobile) styles */
 
 html,
 body {
@@ -250,3 +258,5 @@ a {
 	background: var(--complimentary-color) url(tomato-icon.svg) no-repeat bottom 10px center;
 	background-size: 70px;
 }
+
+/* #endregion */
