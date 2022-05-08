@@ -102,3 +102,24 @@ body {
 .intro .preamble p {
 	margin: 16px 0;
 }
+
+.main div {
+	margin: 0;
+	padding: 1rem;
+}
+
+.main h3 {
+	font-size: 1.5rem;
+	margin: 16px 0;
+}
+
+.main .explanation {
+	background: var(--font-color);
+	color: var(--pop-color);
+}
+
+.main .benefits {
+	padding: 80px 1rem 1rem 1rem;
+	background: var(--complimentary-color) url(tomato-icon.svg) no-repeat top 10px center;
+	background-size: 75px;
+}
