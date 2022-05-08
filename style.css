@@ -3,6 +3,9 @@
 :root {
 	--font-color: #0d2c40;
 	--background-color: #f6efe5;
+	--accent-color: #f15a30;
+	--complimentary-color: rgba(0, 188, 217, 0.8);
+	--pop-color: #ffffff;
 	text-rendering: optimizeLegibility;
 }
 
@@ -30,7 +33,7 @@ body {
 .intro header[role="banner"] {
 	display: flex;
 	position: relative;
-	background-color: #f15a30;
+	background-color: var(--accent-color);
 	width: 100%;
 	height: 20rem;
 	transition: all 1s ease-in;
@@ -40,7 +43,7 @@ body {
 }
 
 .intro header[role="banner"] h1 {
-	color: #ffffff;
+	color: var(--pop-color);
 	position: relative;
 	align-self: flex-start;
 	display: inline-block;
@@ -60,7 +63,7 @@ body {
 	background: var(--font-color) url('tomato-icon.svg') no-repeat;
 	background-size: 75px;
 	background-position: left 5px bottom 10px;
-	color: #ffffff;
+	color: var(--pop-color);
 	font-size: 2rem;
 	height: 100%;
 	width: min-content;
@@ -83,7 +86,7 @@ body {
 .intro .summary p {
 	margin: 0;
 	padding: 0 0 1rem 0;
-	color: #ffffff;
+	color: var(--pop-color);
 }
 
 .intro .preamble {
