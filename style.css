@@ -108,7 +108,7 @@ div[role="article"] p {
 	white-space: nowrap;
 	position: absolute;
 	top: 85px;
-	left: -60px;
+	left: -55px;
 	color: var(--light-font-color);
 	font-size: 1.1rem;
 	transform: rotate(-90deg);
